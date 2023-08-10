@@ -12,18 +12,16 @@
 
 <div class="container">
   <h1>Button for ESp32 x</h1>
-  <button type="button" onchange="v0">Click Me!</button>
+  <button type="submit" class="btn btn-info" onclick="getblynk()">Click Me!</button>
 </div>
 
 <script>
-  function v0(){
-    alert("t");
-    $.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
-      console.log(data);
-    });
+  function getblynk(){
+  $.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+    console.log(data);
+  });
   }
 </script>
 
 </body>
 </html>
-
