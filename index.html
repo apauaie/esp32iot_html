@@ -17,7 +17,9 @@
 
 <script>
   function v0(){
-    
+    $.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+      console.log(data);
+    });
   }
 </script>
 
